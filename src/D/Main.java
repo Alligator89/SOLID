@@ -2,13 +2,13 @@ package D;
 
 public class Main {
     public static void main(String[] args) {
-        AddOperation addOperation = new AddOperation();
-        SubStractOperation subStractOperation = new SubStractOperation();
-        MultiplyOperation multiplyOperation = new MultiplyOperation();
-        DivideOperation divideOperation = new DivideOperation();
-        addOperation.calculate(1, 2);
-        subStractOperation.calculate(5, 1);
-        multiplyOperation.calculate(4, 6);
-        divideOperation.calculate(6, 3);
+    AddOperation addOperation=new AddOperation();
+    DivideOperation divideOperation=new DivideOperation();
+    MultiplyOperation multiplyOperation=new MultiplyOperation();
+    SubStractOperation subStractOperation=new SubStractOperation();
+        System.out.println(addOperation.calculate(2,3));
+        System.out.println(divideOperation.calculate(9,3));
+        System.out.println(multiplyOperation.calculate(3,4));
+        System.out.println(subStractOperation.calculate(6,5));
     }
 }

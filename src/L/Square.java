@@ -1,17 +1,15 @@
 package L;
 
 public class Square extends Rectangle {
-    void setHeight(int height) {
-        this.height = height;
-        this.width = height;
+    @Override
+    public void setHeight(int value) {
+        super.setWidth(value);
+        super.setHeight(value);
     }
 
-    void setWidth(int width) {
-        this.width = width;
-        this.height = width;
-    }
-
-    public int getArea() {
-        return super.getArea();
+    @Override
+    public void setWidth(int value) {
+        super.setWidth(value);
+        super.setHeight(value);
     }
 }

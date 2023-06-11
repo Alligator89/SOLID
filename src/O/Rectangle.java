@@ -8,7 +8,7 @@ public class Rectangle extends Shape {
         this.height = height;
     }
 
-    void perimeter() {
+    public void perimeter() {
         System.out.println(2 * (width + height));
     }
 

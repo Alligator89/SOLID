@@ -1,9 +1,9 @@
 package S;
 
 public class UserRegistration {
-    void register() {
+    public void register() {
     }
 
-    void sendEmail() {
+    public void sendEmail() {
     }
 }

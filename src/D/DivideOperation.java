@@ -2,7 +2,7 @@ package D;
 
 public class DivideOperation implements CalculatorOperation {
     @Override
-    public void calculate(double numbA, double numB) {
-        System.out.println(numbA / numB);
+    public double calculate(double numbA, double numB) {
+        return numbA / numB;
     }
 }

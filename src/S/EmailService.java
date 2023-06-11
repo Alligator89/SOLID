@@ -3,7 +3,7 @@ package S;
 public class EmailService {
     String emailAddress;
 
-    void sendEmail() {
+    public void sendEmail() {
         System.out.println("EmailAddress: " + emailAddress);
 
     }

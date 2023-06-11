@@ -7,7 +7,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    void lengthCircle() {
+    public void lengthCircle() {
         System.out.println(2 * Math.PI * radius);
     }
 

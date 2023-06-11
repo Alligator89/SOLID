@@ -1,18 +1,26 @@
 package L;
 
 public class Rectangle {
-    public int height;
-    public int width;
+    private int height;
+    private int width;
 
-    void setHeight(int height) {
+    public void getArea() {
+        System.out.println(height * width);
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
         this.height = height;
     }
 
-    void setWidth(int width) {
-        this.width = width;
+    public int getWidth() {
+        return width;
     }
 
-    public int getArea() {
-        return this.height * this.width;
+    public void setWidth(int width) {
+        this.width = width;
     }
 }
