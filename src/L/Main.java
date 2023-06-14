@@ -7,5 +7,6 @@ public class Main {
         figure.setHeight(4);
         figure.setWidth(5);
         figure.getArea();
+
     }
 }

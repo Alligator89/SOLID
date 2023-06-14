@@ -7,7 +7,6 @@ public class Registration {
     public void register() {
         System.out.println("Login: " + username + "\n" + "Password: " + password);
     }
-
 }
 
 
